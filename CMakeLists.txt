@@ -5,3 +5,4 @@ project(paulo
     LANGUAGES CXX
 )
 add_executable(paulo main.cpp) 
+install(TARGETS paulo DESTINATION bin)
